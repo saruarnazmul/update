@@ -1,0 +1,773 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+ /* heder start */
+ .back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 5px;
+}
+.header{
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h-logo{
+    margin-top: 10px;
+}
+.logo-header img {
+    margin-left: 0px;
+}
+.logo-icon {
+    margin-left: 30%;
+    font-size: 14px;
+}
+.navbar-toggler{
+	padding: 5px;
+	margin-top: 10px;
+	border: 2px solid  #21b3a8 !important;
+}
+.navbar-light .navbar-toggler-icon i{
+	color: #fff;
+	font-size: 25px;
+}
+.navbar-brand img{
+	width: 70%;
+}
+.menu ul li a{
+	padding: 5px 0px;
+	font-size: 14px;
+
+}
+.menu ul li a:hover{
+	border-bottom: none;
+}
+.banner-content {
+    margin-top: 2rem;
+}
+.banner-p1 {
+    font-size: 14px;
+}
+.banner-p2 {
+    font-size: 15px;
+}
+.banner-content h2 {
+    font-size: 18px;
+}
+.banner-p2 {
+    font-size: 20px;
+}
+.banner-logo {
+    margin-top: 80px;
+}
+
+   /* header end */
+/* common header start */
+.common-header p {
+    font-size: 20px;
+}
+.common-header-p{
+    font-size: 14px !important;
+}
+/* common header end */
+/* institute */
+.institute {
+    margin-top: 0px;
+}
+/* hull uk start */
+.hull-uk {
+    padding: 10px 0;
+}
+.ins-content{
+    text-align: justify;
+}
+
+/* hull uk start */
+
+/* hull excutive  start */
+.hull-e-content{
+    text-align: justify;
+}
+.hull-e-img img:nth-child(2) {
+    margin-left: -66%;
+    margin-top: 4.4rem;
+    width: 66%;
+    border: 4px solid;
+}
+.hull-e-content p:nth-child(1) {
+    font-size: 16px;
+}
+
+/* hull excutive end */
+
+/* hull business start */
+.hull-bus-content {
+    margin: 0 0 10px 0;
+}
+.hull-bus-content h3 {
+    font-size: 16px;
+}
+/* hull business end */
+
+/* careear */
+.careear-img1 {
+    margin: 2rem 0;
+}
+.careear-img {
+    margin-top: 0;
+}
+
+/* carrear */
+/* testimonial start */
+.testi-hover:before {
+    width: 65%;
+    height: 225%;
+    background: #932f69;
+    top: -50%;
+    margin-left: -110px;
+    left: -58%;
+    opacity: 0.8;
+    transform: rotate(-17deg);
+    transform-origin: center top 0;
+    transition: all .5s ease 0s;
+}
+#carousel-custom {
+    width: 15px;
+    height: 15px;
+	margin-top: -30px;
+}
+.testi-hover .post {
+    margin-top: -1rem;
+    margin-left: 0rem;
+    max-width: 8rem;
+    font-size: 8px
+}
+.testi-hover .post p {
+    font-size: 8px;
+    margin-top: 0px;
+}
+.testi-hover .icon li a {
+    font-size: 20px;
+    margin-left: 4.5rem;
+    position: absolute;
+    margin-top: 10px;
+}
+.image-size{
+	width: 100% !important;
+	height: 116px !important;
+}
+.slider2{
+	margin-top: -10px;
+	margin-left: -15px;
+}
+.slider2-icon li a i{
+	margin-top: 15px;
+}
+/* testimonial end */
+/* big ideas */
+.back-content{
+    font-size: 6px;
+}
+.back {
+    padding: 60px 0;
+}
+.bulb-postion {
+    margin-top: -10px;
+}
+.bulb-postion1 {
+    margin-top: 2rem;
+}
+.bulb-postion2 {
+    margin-top: 0rem;
+}
+.curri-content p {
+    font-size: 12px;
+    text-align: justify;
+}
+.curri-content li {
+    font-size: 15px;
+}
+/* repostion */
+.reposition {
+    padding: 0 0;
+}
+.repostion-content p {
+    font-size: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+.m-t-10{
+    margin-top: 5px;
+}
+.re-img1 {
+    margin-top: 5%;
+}
+.re-img2 {
+    margin-top: 5%;
+}
+.milstone-img{
+    margin-top: 15px;
+}
+/* btn sign */
+.btn-sign {
+    margin-left: 105px;
+    padding: 5px 15px;
+}
+.form-control-custom {
+    padding: 15px 10px;
+        margin: 15px auto;
+}
+.btn-check {
+    box-shadow: 1px 1px 0px 1px #fff;
+    padding: 10px 15px;
+}
+/* btn sign */
+/* footer */
+.t-center{
+	text-align: center;
+}
+.icotwitter, .icolinkedin{
+    margin-top: 5px !important;
+}
+.psg2{
+    font-size: 12px !important;
+}
+.carousel-item img{
+    height: auto;
+}
+/* footer */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .h-logo{
+    margin-top: -15px; 
+   }
+   .header{
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-item img{
+    height: auto;
+}
+   /* heder start */
+   .header {
+    padding-bottom: 0px;
+}
+.logo-header img {
+    margin-left: 0px;
+}
+.logo-icon {
+    margin-left: 60%;
+}
+.navbar-toggler{
+	padding: 5px;
+	margin-top: 10px;
+	border: 2px solid  #21b3a8 !important;
+}
+.navbar-light .navbar-toggler-icon i{
+	color: #fff;
+	font-size: 25px;
+}
+.menu ul li a{
+	padding: 5px 0px;
+	font-size: 16px;
+
+}
+.menu ul li a:hover{
+	border-bottom: none;
+}
+.banner-content {
+    margin-top: 2rem;
+}
+.banner-content h2 {
+    font-size: 25px;
+}
+.banner-p2 {
+    font-size: 20px;
+}
+.banner-logo {
+    margin-top: 80px;
+}
+
+   /* header end */
+/* common header start */
+.common-header p {
+    font-size: 20px;
+}
+/* common header end */
+/* hull uk start */
+.hull-uk {
+    padding: 10px 0;
+}
+
+/* hull uk start */
+/* institute */
+.institute {
+    margin-top: 0px;
+}
+
+/* hull excutive  start */
+.hull-e-img img:nth-child(2) {
+    margin-left: -60%;
+    margin-top: 8.4rem;
+    width: 60%;
+}
+.ins-content p{
+    text-align: justify;
+}
+
+/* hull excutive end */
+
+/* hull business start */
+.hull-bus-content {
+    margin: 0 0 10px 0;
+}
+.hull-bus-content h3 {
+    font-size: 20px;
+}
+.hull-e-content{
+    text-align: justify;
+}
+/* hull business end */
+
+/* careear */
+.careear-img1 {
+    margin: 2rem 0;
+}
+.careear-img {
+    margin-top: 0;
+}
+
+/* carrear */
+/* testimonial start */
+#carousel-custom {
+    width: 15px;
+    height: 15px;
+	margin-top: -30px;
+}
+.testi-hover:before {
+    width: 120%;
+}
+.testi-hover .post {
+    margin-top: 0rem;
+    margin-left: 0rem;
+    max-width: 14rem;
+    font-size: 14px
+}
+.testi-hover .post p {
+    font-size: 13px;
+    margin-top: 5px;
+}
+.testi-hover .icon li a {
+    font-size: 30px;
+    margin-left: 5rem;
+    position: absolute;
+}
+.image-size{
+	width: 100% !important;
+	height: 205px !important;
+}
+.slider2{
+	margin-top: -10px;
+	margin-left: -15px;
+}
+.slider2-icon li a i{
+	margin-top: 15px;
+}
+
+/* testimonial end */
+/* big ideas */
+.back-content{
+    font-size: 10px;
+}
+.back {
+    padding: 60px 0;
+}
+.bulb-postion {
+    margin-top: 12px;
+}
+.bulb-postion1 {
+    margin-top: 5rem;
+}
+.bulb-postion2 {
+    margin-top: 0rem;
+}
+
+
+
+
+/* btn sign */
+.btn-sign {
+    margin-left: 13rem;
+    margin-top: 0;
+}
+
+/* btn sign */
+
+/* repostion */
+.reposition {
+    padding: 15px 0;
+}
+.repostion-content p {
+    font-size: 25px;
+    margin-top: 0;
+    text-align: center;
+}
+.m-t-10{
+    margin-top: 5px;
+}
+
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 940.98px) {
+   /* heder start */
+   .banner-content{
+    z-index: 1;
+   }
+   .h-logo{
+    margin-top: -20px;
+    margin-left: -10px;
+   }
+.logo-header img {
+    margin-left: 47px;
+}
+.logo-icon {
+    margin-left: 53%;
+}
+.menu ul li a{
+	padding: 5px 0px;
+
+}
+.menu ul li a:hover{
+	border-bottom: none;
+}
+.banner-content {
+    margin-top: 2rem;
+}
+.banner-content h2 {
+    font-size: 25px;
+}
+.banner-p2 {
+    font-size: 20px;
+}
+.banner-logo {
+    margin-top: 10px;
+}
+.logo1 {
+    margin-top: -20px;
+}
+.dropdown-custom{
+    margin-left: 80px;
+}
+   /* header end */
+
+   /* common header */
+   .common-header p {
+    font-size: 26px;
+}
+.ins-img{
+	    margin-top: 10rem;
+}
+.hull-e-img img:nth-child(2) {
+    position: absolute;
+    margin-left: -275px;
+    margin-top: 9rem;
+    width: 80%;
+}
+   /* common header */
+.institute {
+    margin-top: 0px;
+    padding: 0;
+}
+/* best ideas */
+.back {
+    padding: 40px 0;
+}
+.curri-content li {
+
+    font-size: 16px;
+}
+.bulb-postion {
+    margin-top: 0px;
+    font-size: 13px;
+}
+.bulb-postion1{
+    margin-top: 6rem;
+    font-size: 13px;
+}
+.bulb-postion2{
+    margin-top: 2rem;
+    font-size: 13px;
+}
+   /* hull excutive start */
+   .hull-e-content p:nth-child(1) {
+    font-size: 16px;
+}
+.hull-e-img{
+	margin-top: 6rem;
+}
+   /* hull excutive end */
+
+   /* iedas start */
+.ideas {
+    padding: 15px 0 60px 0;
+}
+.num p {
+    font-size: 25px;
+}
+.ideas-img{
+	margin-top: 6rem;
+}
+/* reposition */
+.repostion-content p {
+    font-size: 20px;
+    margin-top: 20%;
+
+}
+   /* iedas end */
+/* hull business */
+.hull-bus-content {
+    margin: 30px 0px;
+}
+.hull-bus-content h3 {
+    font-size: 24px;
+}
+/* hull business end */
+/* leader ship */
+/* testi hover */
+.testi-hover:hover:before {
+    left: 30%;
+}
+.testi-hover:before {
+    width: 75%;
+}
+.testi-hover .post {
+    max-width: 16rem;
+    font-size: 15px;
+    margin: 0;
+}
+.testi-hover:hover .icon {
+    margin-left: -4rem;
+}
+.image-size{
+	height: 277px !important;
+}
+
+/* careear start */
+.careear-content p:nth-child(1) {
+    font-size: 16px;
+}
+
+
+/* careear end */
+
+/* leadership  */
+
+   /* sign start */
+   .contact-form {
+    margin-top: 25px;
+}
+.btn-sign {
+    margin: 0;
+    margin-left: 8rem;
+}
+.btn-sign {
+    margin-left: 17rem;
+     margin-left: 8rem;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+.form-control-custom {
+    padding: 18px 10px;
+    font-weight: 400;
+    margin: 10px auto;
+}
+
+/* sign end */
+/* fotter */
+.icolinkedin{
+	margin: 10px 0 !important;
+}
+
+/* footer */
+	}
+@media (min-width: 941px) and (max-width: 991.98px){
+        .institute {
+    margin-top: 70px;
+}
+/* heder start */
+   .banner-content{
+    z-index: 1;
+   }
+   .h-logo{
+    margin-top: -20px;
+    margin-left: -10px;
+   }
+.logo-header img {
+    margin-left: 47px;
+}
+.logo-icon {
+    margin-left: 53%;
+}
+.menu ul li a{
+    padding: 5px 0px;
+
+}
+.menu ul li a:hover{
+    border-bottom: none;
+}
+.banner-content {
+    margin-top: 2rem;
+}
+.banner-content h2 {
+    font-size: 25px;
+}
+.banner-p2 {
+    font-size: 20px;
+}
+.banner-logo {
+    margin-top: 10px;
+}
+.logo1 {
+    margin-top: -20px;
+}
+.dropdown-custom{
+    margin-left: 80px;
+}
+   /* header end */
+
+   /* common header */
+   .common-header p {
+    font-size: 26px;
+}
+.bulb-postion {
+    margin-top: 0px;
+    font-size: 13px;
+}
+.bulb-postion1{
+    margin-top: 6rem;
+    font-size: 13px;
+}
+.bulb-postion2{
+    margin-top: 2rem;
+    font-size: 13px;
+}
+.hull-e-img img:nth-child(2) {
+    position: absolute;
+    margin-left: -288px;
+    margin-top: 9rem;
+    width: 80%;
+}
+    }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	/* header start */
+    .header{
+        padding-bottom: 35px;
+    }
+    .logo-header img {
+    margin-left: 55px;
+}
+.logo-icon {
+    margin-left: 63%;
+}
+.menu ul li {
+    padding: 0 5px;
+}
+.banner-icon{
+    margin-top: 35px;
+}
+.banner-content {
+    margin-top: 0rem !important;
+}
+.banner-content h2 {
+    font-size: 35px;
+}
+.banner-p2 {
+    font-size: 25px;
+}
+.banner-logo {
+    margin-top: 35px;
+}
+.institute {
+    margin-top: 0px;
+}
+/* comba */
+.ins-img{
+	margin-top: 45px;
+}
+
+/* hull e img */
+.hull-e-img{
+	margin-top: 5rem;
+}
+
+/* leadership  */
+.careear-img {
+    margin-top: 6rem;
+}
+/* Reposition */
+.repostion-content p {
+    font-size: 28px;
+}
+
+/* leadership */
+/* testi hover */
+.testi-hover:before {
+    width: 75%;
+}
+.testi-hover .post {
+    margin-top: 4rem;
+    margin-left: 1rem;
+    font-size: 19px;
+}
+	/* header end */
+.hull-e-img img:nth-child(2) {
+    margin-left: -70%;
+    margin-top: 10rem;
+    width: 70%;
+    border: 5px solid #fff;
+}
+	/* sign up */
+	.contact-form {
+    margin-top: 20px;
+}
+.form-control-custom {
+    padding: 20px 15px;
+    font-weight: 500;
+    margin: 16px auto;
+    background-color: #3b4b6b;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 2px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-sign{
+	margin: 0;
+	margin: 15px 0 15px 11rem ;
+}
+
+   
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.header{
+        padding-bottom: 110px;
+    }
+ .logo-header img {
+    margin-left: 55px;
+}
+
+
+}
